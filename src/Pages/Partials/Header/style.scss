@@ -1,0 +1,36 @@
+.header {
+    max-width: 1240px;
+    width: 100%;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: 700px) {
+        flex-direction: column;
+        padding: 0 20px;
+        box-sizing: border-box;
+        gap: 20px;
+    }
+    img{
+        width: 20%;
+
+    }
+
+    div {
+        display: flex;
+        gap: 5rem;
+    }
+
+    a {
+        color: #FF6060;
+        font-family: Montserrat;
+        font-size: 24px;
+        text-decoration-line: none;
+
+        &.active,
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

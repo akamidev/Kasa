@@ -1,0 +1,172 @@
+// DEBUT CSS DU SLIDESHOW 
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 1240px;
+  position: relative;
+  margin: auto;
+ 
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.img_slide {
+  width: 1240px;
+  height: 500px;
+  object-fit: cover;
+  box-shadow: #5a5a5a 5px 0px 20px 5px;
+}
+// FIN CSS DU SLIDESHOW
+
+.rental__infos {
+  display:grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.rental__infos__title {
+  width: 60%;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.rental__infos__location {
+  width: 60%;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    color: #FF6060;
+    align-items: center;
+    margin-top: 30px;
+
+    .titles {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        :first-child {
+            font-size: 36px;
+        }
+
+        :last-child {
+            font-size: 18px;
+        }
+    }
+
+    .owner {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+        img {
+            border-radius: 50%;
+            height: 64px;
+            width: 64px;
+        }
+    }
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+    .tags {
+        display: flex;
+        gap: 20px;
+
+        span {
+            background-color: #FF6060;
+            color: white;
+            border-radius: 10px;
+            padding: 5px 30px;
+        }
+    }
+
+    .stars {
+        display: flex;
+        gap: 10px;
+
+        .fa-star {
+            color: #FF6060;
+            font-size: 35px;
+
+            &.empty {
+                color: lightgray;
+            }
+        }
+    }
+  }
+
+  .description_equipements {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    border-radius: 10px;
+    margin: 2rem auto;
+    font-family: montserrat;
+
+    summary {
+      font-size: 1.5rem;
+      color: white;
+      }
+summary:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+    details {
+      font-size: 1.2rem;
+      padding: 1rem ;
+      background-color: #FF6060;
+      color: rgb(43, 42, 42);
+      border-radius:.6rem ;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+      width: 100%;
+     
+}
+
+li {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  list-style-type: none;
+}
+
+}
+
+
+ 
