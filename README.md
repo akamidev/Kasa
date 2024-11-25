@@ -13,15 +13,18 @@
 
 Voici un aperçu visuel de l'application **Kaza** :
 
-<a href="Capture%20d'%C3%A9cran%202023-12-15%20164451.png">
-  <img src="Capture%20d'%C3%A9cran%202023-12-15%20164451.png" alt="Capture d'écran 1" width="500px">
-</a>
-*Page principale affichant la liste des logements.*
+<p align="center">
+  <a href="Capture%20d'%C3%A9cran%202023-12-15%20164451.png">
+    <img src="Capture%20d'%C3%A9cran%202023-12-15%20164451.png" alt="Capture d'écran 1" width="400px">
+  </a>
+  <a href="Capture%20d'%C3%A9cran%202023-12-15%20164518.png">
+    <img src="Capture%20d'%C3%A9cran%202023-12-15%20164518.png" alt="Capture d'écran 2" width="400px">
+  </a>
+</p>
 
-<a href="Capture%20d'%C3%A9cran%202023-12-15%20164518.png">
-  <img src="Capture%20d'%C3%A9cran%202023-12-15%20164518.png" alt="Capture d'écran 2" width="500px">
-</a>
-*Vue détaillée d'un logement avec galerie d'images et informations.*
+*À gauche : Page principale affichant la liste des logements.  
+À droite : Vue détaillée d'un logement avec galerie d'images et informations.*
+
 
 ---
 
