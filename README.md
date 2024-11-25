@@ -15,10 +15,10 @@ Voici un aperçu visuel de l'application **Kaza** :
 
 <p align="center">
   <a href="Capture%20d'%C3%A9cran%202023-12-15%20164451.png">
-    <img src="Capture%20d'%C3%A9cran%202023-12-15%20164451.png" alt="Capture d'écran 1" width="400px">
+    <img src="Capture%20d'%C3%A9cran%202023-12-15%20164451.png" alt="Capture d'écran 1" width="400px" style="border: 2px solid black; margin: 10px;">
   </a>
   <a href="Capture%20d'%C3%A9cran%202023-12-15%20164518.png">
-    <img src="Capture%20d'%C3%A9cran%202023-12-15%20164518.png" alt="Capture d'écran 2" width="400px">
+    <img src="Capture%20d'%C3%A9cran%202023-12-15%20164518.png" alt="Capture d'écran 2" width="400px" style="border: 2px solid black; margin: 10px;">
   </a>
 </p>
 
