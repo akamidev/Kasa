@@ -3,7 +3,6 @@
 [![React](https://img.shields.io/badge/React-18.0.0-blue)](https://reactjs.org/)
 [![API](https://img.shields.io/badge/API-Dynamic-green)](#)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](#)
-[![Deployment](https://img.shields.io/badge/Deployed-Netlify-blue)](https://kaza-app.example.com)
 [![Status](https://img.shields.io/badge/Status-Completed-brightgreen)](#)
 
 **Kaza** est une application web moderne et réactive qui permet aux utilisateurs de rechercher et explorer des logements à louer. Le projet a été développé en partant d'un design sur **Figma** et converti en une application fonctionnelle utilisant **React** et une **API de logements** pour afficher les données dynamiquement.
