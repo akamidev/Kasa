@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# 🏡 Kaza - Application de Recherche de Logements
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![React](https://img.shields.io/badge/React-18.0.0-blue)](https://reactjs.org/)
+[![API](https://img.shields.io/badge/API-Dynamic-green)](#)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](#)
+[![Deployment](https://img.shields.io/badge/Deployed-Netlify-blue)](https://kaza-app.example.com)
+[![Status](https://img.shields.io/badge/Status-Completed-brightgreen)](#)
 
-## Available Scripts
+**Kaza** est une application web moderne et réactive qui permet aux utilisateurs de rechercher et explorer des logements à louer. Le projet a été développé en partant d'un design sur **Figma** et converti en une application fonctionnelle utilisant **React** et une **API de logements** pour afficher les données dynamiquement.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Fonctionnalités Principales
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Liste des logements :** Une page principale affichant tous les logements disponibles.
+- **Page de détail :** Une vue détaillée de chaque logement, incluant des informations telles que le titre, la localisation, les équipements et une galerie d'images.
+- **Galerie d'images interactive :** Affichage dynamique des images d'un logement, avec navigation intuitive.
+- **Gestion des erreurs :** Redirection vers une page 404 en cas d'URL incorrecte ou de logement non trouvé.
+- **Filtres dynamiques :** Recherche et filtrage des logements en fonction de critères spécifiques (ajouter cette partie si elle existe réellement).
+- **Réactivité complète :** Une expérience utilisateur optimale sur tous les appareils (desktop, tablette, mobile).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Technologies Utilisées
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React.js** : Framework JavaScript pour la création de l'interface utilisateur.
+- **Figma** : Outil de design pour le prototypage du site.
+- **API de logements** : Pour récupérer et afficher les données des logements.
+- **React Router** : Gestion des routes pour une navigation fluide entre les pages.
+- **CSS Modules** : Pour un style maintenable et modularisé.
+- **JavaScript ES6** : Pour un code propre et moderne.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📦 Installation et Lancement du Projet
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prérequis
+- **Node.js** (version 14 ou supérieure)
+- **npm** ou **yarn**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Étapes
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Cloner le dépôt :**
+   ```bash
+   git clone https://github.com/tonpseudo/kaza.git
+   cd kaza
