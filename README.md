@@ -9,6 +9,22 @@
 
 ---
 
+## 🌟 Aperçu du Projet
+
+Voici un aperçu visuel de l'application **Kaza** :
+
+<a href="Capture%20d'%C3%A9cran%202023-12-15%20164451.png">
+  <img src="Capture%20d'%C3%A9cran%202023-12-15%20164451.png" alt="Capture d'écran 1" width="500px">
+</a>
+*Page principale affichant la liste des logements.*
+
+<a href="Capture%20d'%C3%A9cran%202023-12-15%20164518.png">
+  <img src="Capture%20d'%C3%A9cran%202023-12-15%20164518.png" alt="Capture d'écran 2" width="500px">
+</a>
+*Vue détaillée d'un logement avec galerie d'images et informations.*
+
+---
+
 ## 🚀 Fonctionnalités Principales
 
 - **Liste des logements :** Une page principale affichant tous les logements disponibles.
